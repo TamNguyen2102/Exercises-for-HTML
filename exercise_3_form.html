@@ -1,0 +1,54 @@
+<!-------------Create by TamNguyen2105------------>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise about HTML Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--------------Heading_1------------------->
+      <h1>Travel reservation form</h1>
+      <h3>* denotes mandotory</h3>
+      <!----------------Form---------------------->
+      <form id="registration_form" action="POST">
+        <!---Full_Name-->
+        <label>Full name*:</label><br />
+        <input type="text" placeholder="FirstName LastName" /><br />
+
+        <!--Email address-->
+        <label>Email address*:</label><br />
+        <input type="text" placeholder="EMAIL_ADDRESS" /><br />
+
+        <!---Selection Tour-->
+        <select name="Selection Tour Package*:">
+          <option value="Vietnam">Vietnam</option>
+          <option value="China">China</option>
+          <option value="Thailand">Thailand</option></select
+        ><br />
+
+        <!---Arrival_Date-->
+        <label>Arrival date*:</label><br />
+        <input type="text" placeholder="m/d/y" /><br />
+        <!---Number of persons-->
+
+        <label>Number of persons*:</label><br />
+        <input type="text" placeholder="UNKNOWN_TYPE" /><br />
+
+        <!---Checkbox-->
+        <label>What would you want to avail?*</label><br />
+        Boarding <input type="checkbox" /><br />
+        Fooding <input type="checkbox" /><br />
+        Sight seeing<input type="checkbox" /><br />
+
+        <!---Ratio-->
+        <label>Terms and conditions*</label><br />
+        <input type="radio" checked />I agree <input type="radio" />I disagree
+        <br />
+        <button>Complete reservation</button>
+      </form>
+    </div>
+  </body>
+</html>
